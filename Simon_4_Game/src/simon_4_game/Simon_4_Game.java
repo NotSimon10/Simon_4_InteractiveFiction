@@ -38,7 +38,7 @@ public class Simon_4_Game {
     //This imports music.You must donwload the song and change the file location below.
     static void playSound() {
     try {
-     AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("/home/NotSimon/Desktop/Music For Game.wav").getAbsoluteFile());
+     AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("/home/NotSimon/Simon_4_InteractiveFiction/Simon_4_Game/Music For Game.wav").getAbsoluteFile());
      Clip clip = AudioSystem.getClip();
        clip.open(audioInputStream);
        clip.start();
